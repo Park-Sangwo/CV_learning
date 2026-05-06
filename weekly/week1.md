@@ -1,15 +1,13 @@
 Introduction FPCV-0-1 2025/05/01
 
+A computer vision system can be designed to surpass the capability of human vision and extract information about the world that we simply cannot. 
+
 1. What is Computer Vision?
 enterprise of building machines that can see
 automating human visual processes
 an information processing task
 (starts with a 2D image and attempts to recover the 3D models)
 inverting image formation, inverse graphics
-...
-
-A computer vision system can be designed to surpass the capability of human vision and extract information about the world that we simply cannot. 
-
 
 2. What is Vision Used for?
 Factory Automation and Robotics, Optical Character Recognition (OCR, Reading License Plates), Biometrics and Security(Iris recognition),

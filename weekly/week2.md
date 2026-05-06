@@ -1,39 +1,59 @@
-FPCV-1-1 2026/05/06
+Image Formation FPCV-1-1 2025/05/06
 
-1. Image formation
+## 1. Image formation
+
 Image formation - the process of projecting a three-dimensional (3D) scene onto a two-dimensional (2D) plane
+
 Given a point in the scene, the geometric relation tells us where it ends up in the image. 
+
 Given the brightness of a point in the scene, the photometric relation determines what its brightness will be in the image.
 
-2. Pinhole and Perspective Projection
+## 2. Pinhole and Perspective Projection
+
 Perspective Projection - the process of mapping a three-dimensional (3D) scene onto a two-dimensional (2D) image plane
+
 (o -> object, i -> image)
-$\mathbf{r}_o$ : scene point vector $(x_o, y_o, z_o)$, $\mathbf{r}_i$ : image point vector $(x_i, y_i, f)$
-$f$ : Effective Focal Length
+
+$\mathbf{r}_o$ : scene point vector $(x_o, y_o, z_o)$, $\mathbf{r}_i$ : image point vector $(x_i, y_i, f)$, $f$ : Effective Focal Length
+
 $$\frac{\mathbf{r}_i}{f} = \frac{\mathbf{r}_o}{z_o}$$
 
 $$ \delta x_i = f \frac{\delta x_o}{z_o}, \quad \delta y_i = f \frac{\delta y_o}{z_o} $$
+
 $$ m = \frac{|\mathbf{d}_i|}{|\mathbf{d}_o|} = \frac{\sqrt{(\delta x_i)^2 + (\delta y_i)^2}}{\sqrt{(\delta x_o)^2 + (\delta y_o)^2}} $$
+
 $$ m = \frac{f}{z_o} $$
+
 Proportion to f, As the focal length increases, the magnification m increases, and it appears larger in the photo
+
 Inverse proportion to $(z_o)$, As the object moves further away, the magnification m decreases, and it appears smaller in the photo
 
 ex)Perspective Distortion - The Selfie Effect, vanishing point
 
-3. What is the Ideal Pinhole Size and diffraction?
+## 3. What is the Ideal Pinhole Size and diffraction?
+
 When the pinhole is too large, it lets through a bundle of rays of light from each point in the scene -> Geometric Blur
+
 When the pinhole is too small, the image will get blurry again -> diffraction
 
+
 When light passes through an opening, the light waves are bent at the periphery of the opening
+
 So, if pinhole becomes smaller, the effect of the bending becomes more pronounced
 
-In order to avoid this effect, the diameter of the pinhole(d) should be roughly two times the square root of the product of the effective focal length(f)
+
+
+In order to avoid this effect, the diameter of the pinhole(d) should be roughly two times 
+the square root of the product of the effective focal length(f)
+
 $$d \approx 2 \sqrt{f \lambda}$$
+
 (wavelength of visible light images - 400nm ~ 700nm, avg 550nm)
+
 ex) effective focal length of 73 millimeters and a pinhole of 0.2 millimeters
 
-4. Pros and cons of Pinhole camera
-pros - because of small hole, image is clear regardless of distance(All-focused)
-cons - pinholes capture very little light, so it requires a lot of exposure time
-	  diffraction Limit
+## 4. Pros and cons of Pinhole camera
 
+pros - because of small hole, image is clear regardless of distance(All-focused)
+
+cons - diffraction Limit(3), pinholes capture very little light, so it requires a lot of exposure time

@@ -57,3 +57,4 @@ ex) effective focal length of 73 millimeters and a pinhole of 0.2 millimeters
 pros - because of small hole, image is clear regardless of distance(All-focused)
 
 cons - diffraction Limit(3), pinholes capture very little light, so it requires a lot of exposure time
+

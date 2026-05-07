@@ -59,3 +59,4 @@ It is Fallible(optical illusions and visual ambiguities, (ex - Fraser’s Spiral
 
 ## 6. Key components of computer vision
 Lighting, Scene, Camera, Vision Software(Pattern extraction algorithm), Scene Description(final output)
+
